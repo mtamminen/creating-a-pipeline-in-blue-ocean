@@ -9,7 +9,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''npm npm install npm@latest -g
+        sh '''npm install npm@latest -g
+
 '''
       }
     }
